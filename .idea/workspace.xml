@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b4bd1c-342a-42da-b06f-37dd61439785" name="Changes" comment="Setup Device">
-      <change afterPath="$PROJECT_DIR$/apk/courier-app-v2.0.2-voucher-sj.apk.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+    <list default="true" id="33b4bd1c-342a-42da-b06f-37dd61439785" name="Changes" comment="Setup Basic Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass/BaseSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass/BaseSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Object/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Object/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestStep/Hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStep/Hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestStep/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStep/LoginStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClass/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClass/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ariansyahriwendi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ariansyahriwendi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ariansyahriwendi/android-technical-test-superapp.git",
-    "accountId": "3ba8052d-4bc6-42da-9938-7194ab71a232"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ariansyahriwendi/android-technical-test-superapp.git&quot;,
+    &quot;accountId&quot;: &quot;3ba8052d-4bc6-42da-9938-7194ab71a232&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -44,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Cucumber Java.Feature: Login.executor": "Run",
-    "Cucumber Java.Scenario: Login Wrong Password.executor": "Run",
-    "Cucumber Java.Scenario: Success To Login And Logout.executor": "Run",
-    "Cucumber Java.Scenario: Success To Login With Visible Password.executor": "Run",
-    "Cucumber Java.Scenario: Success To Login.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbookpro/git/android-techincal-test-superapp/properties",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: Login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login Wrong Password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Success To Login And Logout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Success To Login With Visible Password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Success To Login.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/git/android-techincal-test-superapp/properties&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/properties" />
@@ -204,11 +197,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721918521936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setup Basic Code">
+      <option name="closed" value="true" />
+      <created>1721956669450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721956669450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Device" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Device" />
+    <MESSAGE value="Setup Basic Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Basic Code" />
   </component>
 </project>
