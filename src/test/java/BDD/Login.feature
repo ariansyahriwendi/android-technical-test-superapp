@@ -1,75 +1,90 @@
-@Login
-Feature: Login
+@LoginSuite
+Feature: Login Suite
   As a user
   I want to login
   So that I can login my account
 
-  @SuccessToLogin
-  Scenario: Success To Login
-    Given Account is registered
-    Given Login page opened
-#    When I input email "andi@fakemail.com"
-#    And I input password "password"
-#    And I click login
-#    Then Success to login
-#    Then Redirect to welcome page
-
-  @LoginWrongPassword
-  Scenario: Login Wrong Password
-    Given Account is registered
-    Given Login page opened
-    When I input email "andi@fakemail.com"
-    And I input password "wrongpassword"
+  @Login
+  Scenario: Login
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "maulanastg"
+    And I input password "123456"
     And I click login
-    Then Failed to login
-    Then Show alert wrong email or password
+    Then Success to login
 
-  @LoginWrongEmail
-  Scenario: Login Wrong Email
-    Given Account is registered
-    Given Login page opened
-    When I input email "wrongemail@fakemail.com"
-    And I input password "password"
+  @LoginWithVisiblePassword
+  Scenario: Login With Visible Password
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "maulanastg"
+    And I click icon visible password
+    And I input password "123456"
     And I click login
-    Then Failed to login
-    Then Show alert wrong email or password
+    Then Success to login
 
-  @LoginWrongEmailAndPassword
-  Scenario: Login Wrong Email And Password
-    Given Account is registered
-    Given Login page opened
-    When I input email "wrongemail@fakemail.com"
-    And I input password "wrongpassword"
+  @LoginAndLogout
+  Scenario: Login And Logout
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "maulanastg"
+    And I input password "123456"
     And I click login
-    Then Failed to login
-    Then Show alert wrong email or password
+    Then Success to login
+    And I click profile
+    And I click keluar
+    And I click konfirmasi keluar
+    Then Success to logout
 
-  @LoginInvalidEmailFormat
-  Scenario: Login Invalid Email Format
-    Given Account is registered
-    Given Login page opened
-    When I input email "invalidemail"
-    And I input password "password"
-    And I click login
-    Then Failed to login
-    Then Show alert enter valid email
 
-  @LoginNoInputPassword
-  Scenario: Login No Input Password
-    Given Account is registered
-    Given Login page opened
-    When I input email "andi@fakemail.com"
-    And I input password ""
-    And I click login
-    Then Failed to login
-    Then Show alert enter password
+    # Negative Case
 
-  @LoginNoInputEmail
-  Scenario: Login No Input Email
-    Given Account is registered
-    Given Login page opened
-    When I input email ""
-    And I input password ""
+  @LoginWithEmptyUsernameAndPassword
+  Scenario: Login With Empty Username And Password
+    Given Welcome page opened
+    When I click masuk sekarang
     And I click login
-    Then Failed to login
-    Then Show alert enter email
+    Then Failed to login error message username password belum dimasukkan
+
+  @LoginWithEmptyPassword
+  Scenario: Login With Empty Password
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "maulanastg"
+    And I click login
+    Then Failed to login error message username password belum dimasukkan
+
+  @LoginWithEmptyUsername
+  Scenario: Login With Empty Username
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input password "123456"
+    And I click login
+    Then Failed to login error message username password belum dimasukkan
+
+  @LoginWithInvalidUsernameAndPassword
+  Scenario: Login With Invalid Username And Password
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "invalidusername"
+    And I input password "000000"
+    And I click login
+    Then Failed to login error message username dan password tidak ditemukan
+
+  @LoginWithInvalidUsername
+  Scenario: Login With Invalid Username
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "invalidusername"
+    And I input password "123456"
+    And I click login
+    Then Failed to login error message username dan password tidak ditemukan
+
+  @LoginWithInvalidPassword
+  Scenario: Login With Invalid Password
+    Given Welcome page opened
+    When I click masuk sekarang
+    And I input username "maulanastg"
+    And I input password "000000"
+    And I click login
+    Then Failed to login error message password tidak sesuai

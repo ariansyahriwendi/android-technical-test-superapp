@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33b4bd1c-342a-42da-b06f-37dd61439785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClass/BaseSetUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseClass/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Object/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestStep/Hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestStep/LoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BDD/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClass/TestRunner.java" afterDir="false" />
+    <list default="true" id="33b4bd1c-342a-42da-b06f-37dd61439785" name="Changes" comment="Setup Device">
+      <change afterPath="$PROJECT_DIR$/apk/courier-app-v2.0.2-voucher-sj.apk.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseClass/BaseSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseClass/BaseSetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Object/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Object/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestStep/Hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStep/Hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestStep/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestStep/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BDD/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BDD/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClass/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClass/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ariansyahriwendi"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ariansyahriwendi/android-technical-test-superapp.git",
+    "accountId": "3ba8052d-4bc6-42da-9938-7194ab71a232"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jk30GBi1U0Cx3V2MHhherGGEQS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,20 +46,114 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Feature: Login.executor": "Run",
+    "Cucumber Java.Scenario: Login Wrong Password.executor": "Run",
+    "Cucumber Java.Scenario: Success To Login And Logout.executor": "Run",
+    "Cucumber Java.Scenario: Success To Login With Visible Password.executor": "Run",
+    "Cucumber Java.Scenario: Success To Login.executor": "Run",
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbookpro/git/android-techincal-test-superapp/src/test/java"
+    "last_opened_file_path": "/Users/macbookpro/git/android-techincal-test-superapp/properties",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/properties" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Login.feature" />
+      <option name="GLUE" value="TestStep" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="android-techincal-test-superapp" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Success To Login And Logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Login.feature" />
+      <option name="GLUE" value="TestStep" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="android-techincal-test-superapp" />
+      <option name="NAME_FILTER" value="^Success To Login And Logout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Success To Login And Logout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Success To Login And Logout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Success To Login With Visible Password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Login.feature" />
+      <option name="GLUE" value="TestStep" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="android-techincal-test-superapp" />
+      <option name="NAME_FILTER" value="^Success To Login With Visible Password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Success To Login With Visible Password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Success To Login With Visible Password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Success To Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/BDD/Login.feature" />
+      <option name="GLUE" value="TestStep" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="android-techincal-test-superapp" />
+      <option name="NAME_FILTER" value="^Success To Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Success To Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Success To Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="android-techincal-test-superapp" />
       <extension name="coverage">
@@ -69,6 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Success To Login" />
+        <item itemvalue="Cucumber Java.Scenario: Success To Login And Logout" />
+        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="Cucumber Java.Scenario: Success To Login With Visible Password" />
       </list>
     </recent_temporary>
   </component>
@@ -81,6 +188,27 @@
       <option name="presentableId" value="Default" />
       <updated>1721917022812</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setup Device">
+      <option name="closed" value="true" />
+      <created>1721918416553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918416553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setup Device">
+      <option name="closed" value="true" />
+      <created>1721918521936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721918521936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup Device" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Device" />
   </component>
 </project>
